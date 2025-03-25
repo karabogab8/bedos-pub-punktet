@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punktet Bar - Elverum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Punktet Bar</div>
+            <div class="nav-links">
+                <a href="#home" class="active">Hjem</a>
+                <a href="#om-oss">Om Oss</a>
+                <a href="#drikkemeny">Drikkemeny</a>
+                <a href="#galleri">Galleri</a>
+                <a href="#kontakt">Kontakt Oss</a>
+            </div>
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Velkommen til Punktet Bar</h1>
+            <p>Din eksklusive destinasjon i hjertet av Elverum</p>
+        </section>
+
+        <section id="om-oss" class="section">
+            <div class="container">
+                <h2>Om Oss</h2>
+                <p>Punktet Bar er et sofistikert møtested i Elverum, hvor kvalitet og atmosfære møtes. Vi tilbyr et nøye utvalgt sortiment av drikke i elegante omgivelser.</p>
+            </div>
+        </section>
+
+        <section id="drikkemeny" class="section">
+            <div class="container">
+                <h2>Drikkemeny</h2>
+                <div class="menu-categories">
+                    <button class="category-btn active" data-category="cocktails">Cocktails</button>
+                    <button class="category-btn" data-category="wine">Vin</button>
+                    <button class="category-btn" data-category="beer">Øl</button>
+                    <button class="category-btn" data-category="spirits">Spirits</button>
+                    <button class="category-btn" data-category="non-alcoholic">Alkoholfritt</button>
+                </div>
+                <div class="menu-items" id="menuItems">
+                    <!-- Menu items will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="galleri" class="section">
+            <div class="container">
+                <h2>Galleri</h2>
+                <div class="gallery-grid">
+                    <!-- Gallery images will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="kontakt" class="section">
+            <div class="container">
+                <h2>Kontakt Oss</h2>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="location-icon"></i>
+                        <p>Storgata 123, 2418 Elverum</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="phone-icon"></i>
+                        <p>+47 123 45 678</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="email-icon"></i>
+                        <p>post@punktetbar.no</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://instagram.com" target="_blank" class="social-icon instagram"></a>
+                        <a href="https://facebook.com" target="_blank" class="social-icon facebook"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Punktet Bar. Alle rettigheter reservert.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
